@@ -1,0 +1,466 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JDialog" name="jDialog1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="400" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="300" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+    <Component class="javax.swing.JTextField" name="jTextField1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jTextField1"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField1ActionPerformed"/>
+      </Events>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="354" max="32767" attributes="0"/>
+                      <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="lblVoorNaam" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblAdres" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblPostcode" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="lblPostcode2" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="txtAdres" alignment="0" max="32767" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="txtVoorNaam" min="-2" pref="116" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="lblTussenVoegsel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="txtTussenVoegsel" min="-2" pref="92" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="txtGebDatum" max="32767" attributes="1"/>
+                                          <Component id="txtTelDag" alignment="0" max="32767" attributes="1"/>
+                                          <Component id="txtPostcode" alignment="0" pref="114" max="32767" attributes="1"/>
+                                          <Component id="jLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblWoonplaats1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="lblWoonplaats" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="txtTelNacht" alignment="1" max="32767" attributes="0"/>
+                                                  <Component id="txtRekNr" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="txtWoonplaats" alignment="1" pref="91" max="32767" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Component id="lblPostcode1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblFoto" min="-2" max="-2" attributes="1"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblHuisNummer" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblAchterNaam" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel2" alignment="0" min="-2" pref="69" max="-2" attributes="0"/>
+                          <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="cmbGeslacht" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="txtHuisnummer" alignment="0" pref="63" max="32767" attributes="1"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblToevoeging" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="txtToevoeging" pref="55" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="txtAchterNaam" alignment="0" pref="160" max="32767" attributes="1"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="txtMemberId" alignment="1" min="-2" pref="62" max="-2" attributes="0"/>
+                                  <Component id="cmbAbonnementen" alignment="1" pref="157" max="32767" attributes="1"/>
+                                  <Component id="txtEmailadress" alignment="0" pref="157" max="32767" attributes="1"/>
+                                  <Component id="cmbVestiging" alignment="1" pref="157" max="32767" attributes="1"/>
+                                  <Component id="btnEmail" alignment="0" pref="157" max="32767" attributes="1"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="461" max="32767" attributes="0"/>
+                      <Component id="jButton2Opslaanlid" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblVoorNaam" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtTussenVoegsel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtVoorNaam" alignment="3" max="32767" attributes="0"/>
+                  <Component id="lblTussenVoegsel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblAchterNaam" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtAchterNaam" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblAdres" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtAdres" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblHuisNummer" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtHuisnummer" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblToevoeging" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtToevoeging" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblPostcode" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtPostcode" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtWoonplaats" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblWoonplaats" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cmbGeslacht" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtTelNacht" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblPostcode1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblWoonplaats1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtTelDag" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtEmailadress" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblPostcode2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtRekNr" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtGebDatum" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="btnEmail" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="cmbVestiging" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="cmbAbonnementen" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="txtMemberId" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="102" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="lblFoto" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButton2Opslaanlid" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Nieuwe inschrijving"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblVoorNaam">
+      <Properties>
+        <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="txtVoorNaam"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Voornaam *"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtVoorNaam">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTussenVoegsel">
+      <Properties>
+        <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="txtTussenVoegsel"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Tussenvoegsel"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtTussenVoegsel">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAchterNaam">
+      <Properties>
+        <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="txtAchterNaam"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Achternaam *"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtAchterNaam">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAdres">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Adres *"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtAdres">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblHuisNummer">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Huisnummer *"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtHuisnummer">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblToevoeging">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Toev."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtToevoeging">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPostcode">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Postcode *"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtPostcode">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtPostcodeActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblWoonplaats">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Woonplaats *"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtWoonplaats">
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmbGeslacht">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="2">
+            <StringItem index="0" value="Man"/>
+            <StringItem index="1" value="Vrouw"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmbGeslachtActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Geslacht"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtTelNacht">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblWoonplaats1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tel. nacht"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtTelDag">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPostcode1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tel. dag *"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPostcode2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Geb. datum *"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Rekening *"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtRekNr">
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton2Opslaanlid">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Opslaan"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2OpslaanlidActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtEmailadress">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtEmailadressActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="E-mail"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmbVestiging">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="3">
+            <StringItem index="0" value="FitShape Alkmaar"/>
+            <StringItem index="1" value="FitShape Haarlem"/>
+            <StringItem index="2" value="FitShape Purmerend"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmbVestigingActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtGebDatum">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMemberId">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmbAbonnementen">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Foto uploaden"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblFoto">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="cc" type="rgb"/>
+        </Property>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Resources/images/nophoto.jpg"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vestiging"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Abonnement"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="9" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Formaat: dd-mm-jjjj"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Velden met een * zijn verplicht"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnEmail">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Een e-mail sturen"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEmailActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

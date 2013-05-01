@@ -1,0 +1,227 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" max="-2" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                  <Component id="lblAccountAanmaken" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="lblVoornaam" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblWachtwoord" alignment="1" max="32767" attributes="1"/>
+                          <Component id="lblRol" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtAccountID" alignment="0" min="-2" pref="42" max="-2" attributes="1"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="txtVoornaam" linkSize="1" alignment="1" min="-2" pref="125" max="-2" attributes="1"/>
+                          <Component id="txtWachtwoord" linkSize="1" alignment="1" pref="125" max="32767" attributes="1"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace pref="69" max="32767" attributes="1"/>
+                      <Component id="cmbRol" linkSize="1" min="-2" pref="127" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblTussenvoegsel" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblGeslacht" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblVestiging" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="cmbVestiging" linkSize="3" max="32767" attributes="1"/>
+                  <Component id="cmbGeslacht" linkSize="3" max="32767" attributes="1"/>
+                  <Component id="txtTussenvoegsel" linkSize="3" alignment="0" max="32767" attributes="1"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblAchternaam" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbl_status" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="txtAchternaam" linkSize="5" min="-2" pref="144" max="-2" attributes="1"/>
+                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="btn_opslaan" linkSize="5" alignment="1" max="32767" attributes="1"/>
+                      <Component id="cmb_status" linkSize="5" alignment="1" pref="144" max="32767" attributes="1"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="20" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblAccountAanmaken" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblVoornaam" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblTussenvoegsel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtTussenvoegsel" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtAchternaam" linkSize="6" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblAchternaam" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                  <Component id="txtVoornaam" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblGeslacht" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtWachtwoord" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblWachtwoord" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cmbGeslacht" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cmb_status" linkSize="6" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbl_status" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblRol" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblVestiging" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                  <Component id="cmbRol" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cmbVestiging" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtAccountID" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btn_opslaan" alignment="3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblAccountAanmaken">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Account aanmaken"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtVoornaam">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtAchternaam">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtTussenvoegsel">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblVoornaam">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Voornaam:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAchternaam">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Achternaam:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTussenvoegsel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tussenvoegsel:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblGeslacht">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Geslacht: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmbGeslacht">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="2">
+            <StringItem index="0" value="Man"/>
+            <StringItem index="1" value="Vrouw"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblWachtwoord">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Wachtwoord:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtWachtwoord">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblVestiging">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vestiging:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmbVestiging">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="3">
+            <StringItem index="0" value="Fitshape Alkmaar"/>
+            <StringItem index="1" value="Fitshape Haarlem"/>
+            <StringItem index="2" value="Fitshape Purmerend"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblRol">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Rol:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmbRol">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="3">
+            <StringItem index="0" value="Manager"/>
+            <StringItem index="1" value="Beheerder"/>
+            <StringItem index="2" value="Medewerker"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_opslaan">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Opslaan"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btn_opslaanMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtAccountID">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmb_status">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="2">
+            <StringItem index="0" value="Actief"/>
+            <StringItem index="1" value="Niet actief"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="cmb_statusItemStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_status">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Status:"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

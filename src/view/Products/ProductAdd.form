@@ -1,0 +1,217 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="btnOpslaan" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel2" alignment="0" min="-2" pref="64" max="-2" attributes="0"/>
+                                  <Component id="lblNaam" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblOmschrijving" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblPrijs" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="txtPrijs" max="32767" attributes="1"/>
+                                  <Component id="txtOmschrijving" max="32767" attributes="1"/>
+                                  <Component id="txtNaam" max="32767" attributes="1"/>
+                                  <Component id="cmbCategorie" alignment="0" pref="195" max="32767" attributes="1"/>
+                                  <Component id="cmbStatus" alignment="0" max="32767" attributes="1"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblStartDatum" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblEindDatum" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblDeelnemers" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="txtEinddatum" max="32767" attributes="1"/>
+                                  <Component id="txtStartdatum" max="32767" attributes="1"/>
+                                  <Component id="txtMaxDeelnemers" alignment="0" pref="196" max="32767" attributes="1"/>
+                              </Group>
+                          </Group>
+                          <Component id="txtProductID" min="-2" pref="43" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="lblStatus" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtProductID" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cmbCategorie" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblNaam" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtNaam" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtMaxDeelnemers" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblDeelnemers" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblOmschrijving" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtOmschrijving" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblStartDatum" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtStartdatum" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblPrijs" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblEindDatum" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtEinddatum" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtPrijs" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblStatus" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cmbStatus" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="btnOpslaan" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="217" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Product toevoegen"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmbCategorie">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="0"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="cmbCategorieItemStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Categorie:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblNaam">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Naam:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNaam">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblOmschrijving">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Omschrijving:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtOmschrijving">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPrijs">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Prijs:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDeelnemers">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Max. deelnemers:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblStartDatum">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Start datum:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblEindDatum">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Eind datum:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMaxDeelnemers">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtStartdatum">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtEinddatum">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtPrijs">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnOpslaan">
+      <Properties>
+        <Property name="label" type="java.lang.String" value="Opslaan"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnOpslaanActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtProductID">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblStatus">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Status:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmbStatus">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="2">
+            <StringItem index="0" value="Actief"/>
+            <StringItem index="1" value="Niet actief"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="cmbStatusItemStateChanged"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

@@ -1,0 +1,10 @@
+main
+model
+utils
+view
+view.Accounts
+view.Barapplication
+view.Invoices
+view.Members
+view.Products
+view.Reports
